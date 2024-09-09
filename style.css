@@ -925,4 +925,17 @@ header nav ul li a {
     }
   }
 
+  .copyright {
+    color: #C7C7C7;
+    font-size: 14px;
+    text-align: center;
+    background-color: #9b2530; 
 
+  }
+
+  .copyright a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
