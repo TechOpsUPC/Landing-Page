@@ -168,7 +168,7 @@ header nav ul li a {
 
 
 .hero-text{
-    background-image: linear-gradient(101.31deg, #FFFCEF 24.05%, rgba(255, 252, 239, 0.816664) 46.52%, rgba(255, 252, 239, 0.67696) 50.55%, rgba(255, 252, 239, 0) 64.33%), url("../images/background.jpg");
+    background-image: linear-gradient(101.31deg, #FFFCEF 24.05%, rgba(255, 252, 239, 0.816664) 46.52%, rgba(255, 252, 239, 0.67696) 50.55%, rgba(255, 252, 239, 0) 64.33%), url("images/background.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 800px;
@@ -271,7 +271,7 @@ header nav ul li a {
 
 /*section form*/
 .form{
-    background: url("../images/contact-bg.jpg");
+    background: url("images/contact-bg.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
