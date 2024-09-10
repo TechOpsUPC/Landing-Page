@@ -789,12 +789,62 @@ header nav ul li a {
 
 }
 
-.AboutUs .grid li{
-    padding: 0 30px;
-    flex-basis: -10%;
-    padding: 50px;
+.AboutUs {
+    background-color: #DE9199;
+    padding: 50px 0;
+    text-align: center;
+}
 
-}.AboutUs {
+.AboutUs h1 {
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.AboutUs p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.grid li {
+    list-style: none;
+    width: 200px;
+    text-align: center;
+}
+
+.grid li img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.grid li h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        flex-direction: column;
+    }
+
+    .grid li {
+        width: 100%;
+    }
+}
+
+.AboutUs {
     background-color: #DE9199;
     padding: 50px 0;
     text-align: center;
